@@ -55,7 +55,7 @@ const MessageHandler = async (client = new Client(), message) => {
         const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 
         const prefix = '!' || '#' || ''
-        const krisar = '6282299265151@c.us'  // pliese don't delete this variable.
+        const krisar = '6282114499086@c.us'  // pliese don't delete this variable.
 
         const date = (time) => moment(time * 1000).format('DD/MM/YY HH:mm:ss')
 
@@ -122,7 +122,7 @@ const MessageHandler = async (client = new Client(), message) => {
                         }
                     }
 
-                    await client.reply(from, `Add member by *aex-bot*\n\nTotal number: ${datamember.length}\nDelay: 20s.`, id)
+                    await client.reply(from, `Add member by *Benni ismael*\n\nTotal number: ${datamember.length}\nDelay: 20s.`, id)
 
                     loop(0)
                 }
@@ -205,7 +205,7 @@ const MessageHandler = async (client = new Client(), message) => {
             case 'kickme': 
                 // client.reply(from, 'Maaf fitur di non-aktifkan sementara.', id)
                 if (isGroupMsg && isGroupAdmins) {
-                    client.sendText(from, `Invite kembali aex jika dirasa dibutuhkan yah~`)
+                    client.sendText(from, `Invite kembali BOTSTYLE jika dirasa dibutuhkan yah~`)
                         .then(() => {
                             client.leaveGroup(groupId)
                         })
