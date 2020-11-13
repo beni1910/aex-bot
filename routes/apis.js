@@ -1,5 +1,5 @@
 /**
- * https://github.com/ibnusyawall/aex-bot
+ * https://github.com/beni1910/aex-bot
  * Date: 05/09/20
  * index.js
 **/
