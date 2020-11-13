@@ -1,5 +1,5 @@
 /**
-  * https://github.com/ibnusyawall/aex-bot
+  * https://github.com/beni1910/aex-bot
   * Date: 18/09/20
   * client.js
 **/
