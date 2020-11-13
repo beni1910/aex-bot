@@ -1,5 +1,5 @@
 {
-  "name": "aex-bot",
+  "name": "BOT_STYLE",
   "version": "1.2.0",
   "main": "app.js",
   "scripts": {
@@ -39,18 +39,18 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibnusyawall/aex-bot.git"
+    "url": "git+https://github.com/beni1910/aex-bot.git"
   },
   "keywords": [
-    "aex-bot",
+    "BOT_STYLE",
     "whatsapp-bot",
     "nodejs",
     "whatsapp-web.js"
   ],
-  "author": "ibnusyawall",
+  "author": "benni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibnusyawall/aex-bot/issues"
+    "url": "https://github.com/beni1910/aex-bot/issues"
   },
-  "homepage": "https://github.com/ibnusyawall/aex-bot#readme"
+  "homepage": "https://github.com/beni1910/aex-bot#readme"
 }
