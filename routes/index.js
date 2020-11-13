@@ -1,5 +1,5 @@
 /**
- * https://github.com/ibnusyawall/aex-bot
+ * https://github.com/beni1910/aex-bot
  * Date: 05/09/20
  * index.js
 **/
@@ -29,7 +29,7 @@ router.get('/', function (req, res, next) {
 router.get('/profile', function (req, res, next) {
     cwa.Profile((error, { name, nomor, platform, version, os } = {}) => {
         res.render('profile', {
-            title: 'PROFILE | AEX BOT',
+            title: 'PROFILE | BOT_STYLE',
             name: name,
             nomor: nomor,
             platform: platform,
@@ -42,7 +42,7 @@ router.get('/profile', function (req, res, next) {
 router.get('/spam-wa', function (req, res, next) {
     cwa.spamKey((error, { code } = {}) => {
         res.render('spam', {
-            title: 'SPAM WA | AEX BOT',
+            title: 'SPAM WA | BOT_STYLE',
             code: code
         })
     })
@@ -53,7 +53,7 @@ router.post('/spam-wa', (req, res, next) => {
 
     cwa.spam(code, nomor, jumlah, (error, { errorM, message, code } = {}) => {
         res.render('spam', {
-            title: 'SPAM WA | AEX BOT',
+            title: 'SPAM WA | BOT_STYLE',
             error: errorM,
             message: message,
             code: code
@@ -63,7 +63,7 @@ router.post('/spam-wa', (req, res, next) => {
 
 router.get('/direct-chat', (req, res, next) => {
      res.render('dchat', {
-        title: 'DIRECT CHAT WA | AEX BOT'
+        title: 'DIRECT CHAT WA | BOT_STYLE'
     })
 })
 
@@ -72,7 +72,7 @@ router.post('/direct-chat', (req, res, next) => {
 
     cwa.MessagePrivate(nomor, pesan, (error, { errorM, message }) => {
         res.render('dchat', {
-            title: 'DIRECT CHAT WA | AEX BOT',
+            title: 'DIRECT CHAT WA | BOT_STYLE',
             error: errorM,
             message: message
         })
