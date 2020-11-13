@@ -1,13 +1,13 @@
 <div align="center">
 
-# AEX BOT WhatsApp
+# BOT_STYLE WhatsApp
 
 </div>
 
 ### Install
 
 ```bash
-> git clone https://github.com/ibnusyawall/aex-bot.git
+> git clone https://github.com/beni1910/aex-bot.git
 > cd aex-bot
 > npm i
 > npm start
@@ -33,7 +33,7 @@ After scan barcode whatsapp, you can start message with following command : !men
 
 #### Menu
 <pre>
-    -- AEX BOT WHATSAPP
+    -- BOT_STYLE WHATSAPP
 
     Group Command:
 
@@ -84,4 +84,4 @@ After scan barcode whatsapp, you can start message with following command : !men
 
 found bug? or other problem? Pliese submit issues!
 
-Open donation, contact me on WhatsApp: +6282299265151
+Open donation, contact me on WhatsApp: +6282114499086
