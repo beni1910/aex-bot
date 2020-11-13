@@ -16,7 +16,7 @@ router.get('/', function (req, res, next) {
         const { free, size } = data
         cwa.Message((error, { uread, tread } = {}) => {
             res.render('index', {
-                title: 'AEX BOT',
+                title: 'BOT_STYLE',
                 free: free,
                 size: size,
                 uread: uread,
